@@ -14,30 +14,44 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-light bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="img\duck.png" alt="" width="40">
-                </a>
-                <ul class="nav justify-content-start">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Catalogo libri</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white-50" href="#">anagrafica utenti</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white-50" href="#">storico prestiti</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white-50" href="#">help</a>
-                    </li>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href=""><img src="img/duck.png" class="rounded mx-auto d-block" alt="..."></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">catalogo libri</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">anagrafica utenti</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                storico prestiti
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">help</a>
+                        </li>
+                    </ul>
 
-
-                </ul>
+                </div>
             </div>
         </nav>
-
     </header>
     <main>
         <div class="container">
